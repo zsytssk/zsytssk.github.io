@@ -1169,7 +1169,7 @@ var $async$acY=P.a_(function(a,b){if(a===1)return P.a1(b,r)
 while(true)switch(s){case 0:o=[]
 n=J
 s=3
-return P.ab($.aoq().eq(H.a(["jpg","png"],t.V),C.cT),$async$acY)
+return P.ab($.aoq().eq(!0,H.a(["jpg","png"],t.V),C.cT),$async$acY)
 case 3:p=n.al(b.a)
 case 4:if(!p.t()){s=5
 break}o.push(p.gv(p))
@@ -40548,19 +40548,19 @@ i(a){return this.b}}
 G.US.prototype={
 gLU(){var s=this.c
 return s===$?H.c(H.d("_target")):s},
-eq(a,b){return this.agy(a,b)},
-agy(a,b){var s=0,r=P.a4(t.fW),q,p=this,o,n,m,l,k,j,i
-var $async$eq=P.a_(function(c,d){if(c===1)return P.a1(d,r)
+eq(a,b,c){return this.agy(!0,b,c)},
+agy(a,b,c){var s=0,r=P.a4(t.fW),q,p=this,o,n,m,l,k,j,i
+var $async$eq=P.a_(function(d,e){if(d===1)return P.a1(e,r)
 while(true)switch(s){case 0:i={}
-if(b!==C.cT)o=a.length!==0
+if(c!==C.cT)o=b.length!==0
 else o=!1
-if(o)throw H.b(P.c2("You are setting a type ["+b.i(0)+u.C))
+if(o)throw H.b(P.c2("You are setting a type ["+c.i(0)+u.C))
 o=new P.a5($.T,t.SP)
 n=new P.aM(o,t.Eq)
-m=G.auK(b,a)
+m=G.auK(c,b)
 l=W.Et("file")
 l.draggable=!0
-l.multiple=!1
+l.multiple=!0
 l.accept=m
 i.a=!1
 k=new G.UW(i,p,l,null,n,!1,!0)
@@ -40572,7 +40572,7 @@ J.Ba(p.gLU()).J(0,l)
 l.click()
 s=3
 return P.ab(o,$async$eq)
-case 3:j=d
+case 3:j=e
 q=j==null?null:new K.km(j)
 s=1
 break
@@ -40620,8 +40620,8 @@ G.kn.prototype={
 i(a){return this.b}}
 G.UK.prototype={}
 B.UL.prototype={
-eq(a,b){return this.ul(b,!1,!0,a,null,!1,!1)},
-ul(a,b,c,d,e,f,g){return this.a29(a,!1,!0,d,e,!1,!1)},
+eq(a,b,c){return this.ul(c,!0,!0,b,null,!1,!1)},
+ul(a,b,c,d,e,f,g){return this.a29(a,!0,!0,d,e,!1,!1)},
 a29(a,a0,a1,a2,a3,a4,a5){var s=0,r=P.a4(t.fW),q,p=2,o,n=[],m,l,k,j,i,h,g,f,e,d,c,b
 var $async$ul=P.a_(function(a6,a7){if(a6===1){o=a7
 s=p}while(true)switch(s){case 0:c=Y.agJ(a)
@@ -40632,7 +40632,7 @@ p=4
 h=$.auJ
 if(h!=null)h.bi(0)
 s=7
-return P.ab($.aps().wv(c,P.az(["allowMultipleSelection",!1,"allowedExtensions",a2,"allowCompression",!0,"withData",!1],t.N,t.X),t.f),$async$ul)
+return P.ab($.aps().wv(c,P.az(["allowMultipleSelection",!0,"allowedExtensions",a2,"allowCompression",!0,"withData",!1],t.N,t.X),t.f),$async$ul)
 case 7:m=a7
 if(m==null){q=null
 s=1
@@ -40662,22 +40662,22 @@ case 6:case 1:return P.a2(q,r)
 case 2:return P.a1(o,r)}})
 return P.a3($async$ul,r)}}
 M.UM.prototype={
-eq(a,b){return this.agw(a,b)},
-agw(a,b){var s=0,r=P.a4(t.fW),q,p=this,o,n,m,l
-var $async$eq=P.a_(function(c,d){if(c===1)return P.a1(d,r)
+eq(a,b,c){return this.agw(!0,b,c)},
+agw(a,b,c){var s=0,r=P.a4(t.fW),q,p=this,o,n,m,l
+var $async$eq=P.a_(function(d,e){if(d===1)return P.a1(e,r)
 while(true)switch(s){case 0:s=3
 return P.ab(p.pv(),$async$eq)
-case 3:o=d
-n=p.CU(b,a)
+case 3:o=e
+n=p.CU(c,b)
 s=4
-return P.ab(B.AV(o,p.xx("File Picker",n,!1,!1)),$async$eq)
-case 4:m=d
+return P.ab(B.AV(o,p.xx("File Picker",n,!0,!1)),$async$eq)
+case 4:m=e
 if(m==null){q=null
 s=1
 break}l=K
 s=5
 return P.ab(B.anz(p.Ee(m),!1,!1),$async$eq)
-case 5:q=new l.km(d)
+case 5:q=new l.km(e)
 s=1
 break
 case 1:return P.a2(q,r)}})
@@ -40724,27 +40724,28 @@ default:throw H.b(P.c2("unknown file type"))}},
 xy(a,b,c,d,e,f){var s=H.a(["--file-selection","--title",a],t.s)
 if(f){s.push("--save")
 if(c.length!==0)s.push("--filename="+c)}if(b.length!==0)s.push("--file-filter="+b)
+if(d)s.push("--multiple")
 return s},
 xx(a,b,c,d){return this.xy(a,b,"",c,d,!1)},
 Ee(a){if(C.e.xn(a).length===0)return H.a([],t.s)
 return H.a(a.split("|"),t.s)}}
 R.UN.prototype={
-eq(a,b){return this.agx(a,b)},
-agx(a,b){var s=0,r=P.a4(t.fW),q,p=this,o,n,m,l
-var $async$eq=P.a_(function(c,d){if(c===1)return P.a1(d,r)
+eq(a,b,c){return this.agx(!0,b,c)},
+agx(a,b,c){var s=0,r=P.a4(t.fW),q,p=this,o,n,m,l
+var $async$eq=P.a_(function(d,e){if(d===1)return P.a1(e,r)
 while(true)switch(s){case 0:s=3
 return P.ab(B.AR("osascript"),$async$eq)
-case 3:o=d
-n=p.CU(b,a)
+case 3:o=e
+n=p.CU(c,b)
 s=4
-return P.ab(B.AV(o,p.xx(p.ad_("File Picker"),n,!1,!1)),$async$eq)
-case 4:m=d
+return P.ab(B.AV(o,p.xx(p.ad_("File Picker"),n,!0,!1)),$async$eq)
+case 4:m=e
 if(m==null){q=null
 s=1
 break}l=K
 s=5
 return P.ab(B.anz(p.Ee(m),!1,!1),$async$eq)
-case 5:q=new l.km(d)
+case 5:q=new l.km(e)
 s=1
 break
 case 1:return P.a2(q,r)}})
@@ -40759,8 +40760,8 @@ case C.hv:return'"", "webm", "mpeg", "mkv", "mp4", "avi", "mov", "flv"'
 default:throw H.b(P.c2("unknown file type"))}},
 xy(a,b,c,d,e,f){var s,r="choose file name ",q=H.a(["-e"],t.s)
 if(f)s=c.length!==0?r+('default name "'+c+'" '):r
-else s="choose file "+("of type {"+b+"} ")
-q.push(s+('with prompt "'+a+'"'))
+else{s="choose file "+("of type {"+b+"} ")
+if(d)s+="with multiple selections allowed "}q.push(s+('with prompt "'+a+'"'))
 return q},
 xx(a,b,c,d){return this.xy(a,b,"",c,d,!1)},
 ad_(a){var s=H.t1(a,"\\","\\\\")
