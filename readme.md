@@ -40,6 +40,8 @@
 
 [仓库](https://zsytssk.github.io/font_creator)
 
+在这个项目中我写了一个脚本可以直接将 laya ui 转换为 jsx，[代码在这](https://github.com/zsytssk/solidjs-laya-demo/tree/master/script/uiToJsx)
+
 ## font-creator
 
 flutter 写的一个合并字体文件的插件：
