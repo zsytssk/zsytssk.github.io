@@ -33,7 +33,9 @@
 ## event-state 状态管理
 
 自己写的 react 状态管理器
+
 [event-state](https://www.npmjs.com/package/react-event-state)
+
 [介绍](https://www.jianshu.com/p/e6e1f6a89be3)
 
 ## 有关 react 其他
