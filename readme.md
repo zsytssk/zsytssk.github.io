@@ -36,7 +36,7 @@
 1. 用 jsx 来组织 UI（会 react 的人都知道这个好处）
 2. 提供近似原生 js 代码的性能
 
-[示例](https://zsytssk.github.io/bitUI/react-solidjs)
+[示例](https://zsytssk.github.io/bitUI/solidjs-laya)
 
 [仓库](https://zsytssk.github.io/font_creator)
 
