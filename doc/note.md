@@ -1,13 +1,10 @@
-- 。。。
+- 6 月前完成就可以了 [2022-02-07 -- 2022-06-01]
 
   - solidjs-laya
     - laya scene -> jsx
   - react-laya
-
   - lightCanvas
-
-  - zsy-react-component
-  - typescript 解析语法
+  - typescript 解析语法·
   - laya genVersion ｜ zipFile
   - 小 zepto ｜ jquery 插件
   - 游戏 mvc
@@ -19,12 +16,15 @@
 
 ### end
 
+- zsy-react-component
+
 - font-creator
   - flutter + 自己创造的 矩形合并 + event
+  - chrome 不能用
 
 ## 2022-02-08 10:17:17
 
-- 6 月前完成就可以了 [2022-02-07 -- 2022-06-01]
+- font-creator 不能用了
 
 ## 2022-02-07 11:17:58
 
