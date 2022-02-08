@@ -30,8 +30,6 @@
 [示例代码](/bitUI)
 [仓库](https://github.com/zsytssk/bitUI)
 
-个人对 react 的理解
-
 ## event-state 状态管理
 
 自己写的 react 状态管理器
@@ -40,7 +38,7 @@
 
 ## 有关 react 其他
 
-[我们为什么需要 React？](https://www.zhihu.com/question/47161776/answer/2325381843)
+[个人对 react 的理解](https://www.zhihu.com/question/47161776/answer/2325381843)
 
 [给 redux 的 useSelector 添加 debounce](https://stackoverflow.com/questions/64799941/how-add-debounce-to-useselector-on-react-redux)
 
