@@ -5,8 +5,7 @@
   - react-laya
 
   - lightCanvas
-  - font-creator
-    - flutter + 自己创造的 矩形合并 + event
+
   - zsy-react-component
   - typescript 解析语法
   - laya genVersion ｜ zipFile
@@ -17,6 +16,11 @@
   - git 脚本
   - react-tpl ...
   - 其他
+
+### end
+
+- font-creator
+  - flutter + 自己创造的 矩形合并 + event
 
 ## 2022-02-08 10:17:17
 

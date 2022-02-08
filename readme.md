@@ -37,3 +37,5 @@ flutter 写的一个合并字体文件的插件：
 [示例代码](https://zsytssk.github.io/font_creator)
 
 [仓库](https://github.com/zsytssk/font_creator)
+
+因为这个项目写了一个合并矩形的 dart 库 [rect_pack](https://pub.dev/packages/rect_pack)
