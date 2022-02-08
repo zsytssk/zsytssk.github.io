@@ -24,7 +24,11 @@
   - react-tpl ...
   - 其他
 
-## zsy-react-component
+## bitUI
+
+一个自己写的 react 组件库；
+[示例代码](//bitUI)
+[仓库](https://github.com/zsytssk/bitUI)
 
 个人对 react 的理解
 
