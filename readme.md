@@ -4,7 +4,7 @@
 
 一个自己写的 react 组件库：
 
-[示例代码](/bitUI)
+[示例代码](https://zsytssk.github.io/bitUI)
 
 [仓库](https://github.com/zsytssk/bitUI)
 
@@ -34,6 +34,6 @@
 
 flutter 写的一个合并字体文件的插件：
 
-[示例代码](/font_creator)
+[示例代码](https://zsytssk.github.io/font_creator)
 
 [仓库](https://github.com/zsytssk/font_creator)
