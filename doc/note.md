@@ -1,3 +1,27 @@
+- 。。。
+
+  - solidjs-laya
+    - laya scene -> jsx
+  - react-laya
+
+  - lightCanvas
+  - font-creator
+    - flutter + 自己创造的 矩形合并 + event
+  - zsy-react-component
+  - typescript 解析语法
+  - laya genVersion ｜ zipFile
+  - 小 zepto ｜ jquery 插件
+  - 游戏 mvc
+  - rust 写的压缩图片合并图片
+  - ls
+  - git 脚本
+  - react-tpl ...
+  - 其他
+
+## 2022-02-08 10:17:17
+
+- 6 月前完成就可以了 [2022-02-07 -- 2022-06-01]
+
 ## 2022-02-07 11:17:58
 
 主要通过项目来写自己的一个个技术，同时写自己为什么做这些事情，用来展示我是一个什么样的人。
