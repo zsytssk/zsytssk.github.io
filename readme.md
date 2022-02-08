@@ -10,7 +10,8 @@
 
 ## event-state 状态管理
 
-自己写的 react 状态管理器
+自己写的 react 状态管理器, 采用事件分发来管理状态；
+有类似 redux 的 useSelector 的方法
 
 [event-state](https://www.npmjs.com/package/react-event-state)
 
@@ -30,11 +31,20 @@
 
 ## solid-laya
 
+通过 SolidJs 渲染 Laya 的示例项目, 他的好处：
+
+1. 用 jsx 来组织 UI（会 react 的人都知道这个好处）
+2. 提供近似原生 js 代码的性能
+
+[示例](https://zsytssk.github.io/bitUI/react-solidjs)
+
+[仓库](https://zsytssk.github.io/font_creator)
+
 ## font-creator
 
 flutter 写的一个合并字体文件的插件：
 
-[示例代码](https://zsytssk.github.io/font_creator)
+[示例](https://zsytssk.github.io/font_creator)
 
 [仓库](https://github.com/zsytssk/font_creator)
 
