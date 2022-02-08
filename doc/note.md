@@ -3,6 +3,7 @@
   - solidjs-laya
     - laya scene -> jsx
   - react-laya
+  - 钱包代码
   - lightCanvas
   - typescript 解析语法·
   - laya genVersion ｜ zipFile
@@ -11,6 +12,7 @@
   - rust 写的压缩图片合并图片
   - ls
   - git 脚本
+  - 钱包
   - react-tpl ...
   - 其他
 
@@ -21,10 +23,9 @@
 - font-creator
   - flutter + 自己创造的 矩形合并 + event
   - chrome 不能用
+- font-creator 不能用了
 
 ## 2022-02-08 10:17:17
-
-- font-creator 不能用了
 
 ## 2022-02-07 11:17:58
 
