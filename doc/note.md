@@ -1,23 +1,27 @@
 - 6 月前完成就可以了 [2022-02-07 -- 2022-06-01]
 
-  - solidjs-laya
-    - laya scene -> jsx
-  - 捕鱼 -> 测试代码
+  - 捕鱼
+    - 测试代码 mvc ... 打包 zip genVersion
+    - 合并 loading ....
   - react-laya
   - 钱包代码
   - lightCanvas
   - typescript 解析语法·
   - laya genVersion ｜ zipFile
-  - 小 zepto ｜ jquery 插件
-  - 游戏 mvc
   - rust 写的压缩图片合并图片
   - ls
   - git 脚本
   - 钱包
   - react-tpl ...
+  - 小 zepto ｜ jquery 插件
+  - photoshop 脚本
   - 其他
 
 ### end
+
+- solidjs-laya
+
+  - laya scene -> jsx
 
 - zsy-react-component
 
