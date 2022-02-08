@@ -32,4 +32,8 @@
 
 ## font-creator
 
-flutter 写的一个合并字体文件的插件
+flutter 写的一个合并字体文件的插件：
+
+[示例代码](/font_creator)
+
+[仓库](https://github.com/zsytssk/font_creator)
