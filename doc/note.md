@@ -1,12 +1,13 @@
 - 6 月前完成就可以了 [2022-02-07 -- 2022-06-01]
 
   - 捕鱼
+
     - 测试代码 mvc ... 打包 zip genVersion
     - 合并 loading ....
-  - react-laya
+
   - 钱包代码
   - lightCanvas
-  - typescript 解析语法·
+  - typescript 解析语法
   - laya genVersion ｜ zipFile
   - rust 写的压缩图片合并图片
   - ls
@@ -22,6 +23,8 @@
 - solidjs-laya
 
   - laya scene -> jsx
+
+- react-laya
 
 - zsy-react-component
 
