@@ -38,7 +38,7 @@
 
 [示例](https://zsytssk.github.io/solidjs-laya)
 
-[仓库](https://zsytssk.github.io/font_creator)
+[仓库](https://github.com/zsytssk/solidjs-laya-demo)
 
 在这个项目中我写了一个脚本可以直接将 laya ui 转换为 jsx，[代码在这](https://github.com/zsytssk/solidjs-laya-demo/tree/master/script/uiToJsx), 我以前做了一个类似的 react 项目[react-laya](https://github.com/zsytssk/react-laya)
 
