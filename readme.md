@@ -25,6 +25,8 @@
 
 ## 捕鱼
 
+[示例代码](https://zsytssk.github.io/fish/build)
+
 ## lightCanvas
 
 自己写的 10k 左右的 canvas 渲染引擎类似于 layabox
