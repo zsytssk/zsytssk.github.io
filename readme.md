@@ -25,7 +25,7 @@
 
 ## 捕鱼
 
-layabox 写的捕鱼游戏 [介绍](https://zsytssk.github.io/fish/readme.md)
+layabox 写的捕鱼游戏 [介绍](./fish/readme.md)
 
 ## lightCanvas
 
