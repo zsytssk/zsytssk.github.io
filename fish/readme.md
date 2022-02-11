@@ -4,6 +4,15 @@ https://github.com/zsytssk/tpl/tree/master/laya
 
 ## mvc
 
+我在捕鱼中实现了 mvc，model 层管理数据，view 管理显示，用 ctrl 将两者串联起来。
+model 数据发生改变时就分发事件，ctrl 监听这些事件然后去控制 view 的显示。
+model 和 view 都实现了独立运行，不依赖其他部分。
+
+道理很简单实现方式也很简单，我在刚开始做捕鱼这个项目时只是一个模糊的想法；
+经过不知到多少次的尝试，不断的修改框架，最后才实现这样的一个方式；
+其中的经历外人难以知道，我特别要感谢 typescript 当时公司没有人使用 ts（2017）；
+因为我经常的尝试新的想法需要不断的重构代码，如果没有 ts 给我保证，我可能在第一版的时候就不敢动大动作了。
+
 ## honor 框架
 
 honor 框架主要管理弹框和场景，还有其他一些小功能；这是原来公司的框架后来维护的那个人离职了，就交给我了。我对其进行了多次优化，目标就是将其变得简单可维护。比方说弹框管理器，最终我将其优化成了一个方法，仍保有以下功能：[代码](https://github.com/zsytssk/tpl/blob/master/laya/library/honor/ui/dialogManager.ts)
