@@ -1,6 +1,6 @@
 - 6 月前完成就可以了 [2022-02-07 -- 2022-06-01]
 
-  - 钱包代码
+  - ts 类型定义 -> type.d
   - lightCanvas
   - typescript 解析语法
   - laya genVersion ｜ zipFile
@@ -18,6 +18,8 @@
 
   - 测试代码 mvc ... 打包 zip genVersion
   - 合并 loading ....
+
+- 钱包代码
 
 - solidjs-laya
 

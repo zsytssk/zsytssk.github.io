@@ -53,3 +53,17 @@ flutter 写的一个合并字体文件的插件：
 [仓库](https://github.com/zsytssk/font_creator)
 
 因为这个项目写了一个合并矩形的 dart 库 [rect_pack](https://pub.dev/packages/rect_pack)
+
+## 去中心化钱包代码
+
+总结的一些常用的去中心化钱包核心功能代码，实现统一的接口，实现功能有：
+
+1. 登陆
+1. 退出
+1. 切换币种
+1. 获取余额
+1. 转账
+1. 合约 Approve
+1. 签名
+
+[仓库](https://github.com/zsytssk/contract-wallet)
