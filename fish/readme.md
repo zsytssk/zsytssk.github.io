@@ -60,13 +60,19 @@ js 继承曾经是一个高级用法，有很多的库专门干这个事情， �
 
 1. 通过 rxjs 将多个加载任务合并成一个[代码][progress_code] [demo][progress_demo]
 1. node 脚本生成版本号[代码](https://github.com/zsytssk/tpl/blob/master/laya/script/genVersion/genVersion.ts)
-1. 将资源打包成 zip 记载 [打包代码](https://github.com/zsytssk/tpl/tree/master/laya/script/zipFile) [给 laya 注入功能](https://github.com/zsytssk/tpl/blob/master/laya/library/honor/utils/zipResManager.ts)
-1. 常用动画脚本 [代码](https://github.com/zsytssk/tpl/blob/master/laya/src/utils/animate.ts)
-1. 异步任务 [代码](https://github.com/zsytssk/tpl/blob/master/laya/src/utils/asyncQue.ts)
-1. 像 jquery 一样查找 node 节点[代码](https://github.com/zsytssk/tpl/blob/master/laya/src/utils/layaQueryElements.ts)
-1. laya 显示的图片切换功能[代码](https://github.com/zsytssk/tpl/blob/master/laya/src/utils/layaSlider.ts)
-1. 分页[代码](https://github.com/zsytssk/tpl/blob/master/laya/src/utils/pagination.ts)
-   ...
+1. 将资源打包成 zip 记载 [打包代码][node_zip] [laya 注入功能][zipresmanager]
+1. 常用动画脚本 [代码][animate]
+1. 异步任务 [代码][asyncque]
+1. 像 jquery 一样查找 node 节点[代码][layaqueryelements]
+1. laya 显示的图片切换功能[代码][layaslider]
+1. 分页[代码][pagination]
 
 [progress_code]: https://github.com/zsytssk/tpl/blob/master/laya/library/honor/utils/loadRes.ts#L134
 [progress_demo]: https://codesandbox.io/s/rxjs-progressbar-52dji
+[node_zip]: https://github.com/zsytssk/tpl/tree/master/laya/script/zipFile
+[zipresmanager]: https://github.com/zsytssk/tpl/blob/master/laya/library/honor/utils/zipResManager.ts
+[animate]: https://github.com/zsytssk/tpl/blob/master/laya/src/utils/animate.ts
+[asyncque]: https://github.com/zsytssk/tpl/blob/master/laya/src/utils/asyncQue.ts
+[layaqueryelements]: https://github.com/zsytssk/tpl/blob/master/laya/src/utils/layaQueryElements.ts
+[layaslider]: https://github.com/zsytssk/tpl/blob/master/laya/src/utils/layaSlider.ts
+[pagination]: https://github.com/zsytssk/tpl/blob/master/laya/src/utils/pagination.ts
