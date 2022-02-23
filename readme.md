@@ -25,7 +25,7 @@
 
 ## 捕鱼
 
-layabox 写的捕鱼游戏 [介绍](./fish/readme.md)
+layabox 写的捕鱼游戏 [介绍](./fish/readme.md)，这无疑是我程序员征途上最大的成就。
 
 ## lightCanvas
 
@@ -67,3 +67,15 @@ flutter 写的一个合并字体文件的插件：
 1. 签名
 
 [仓库](https://github.com/zsytssk/contract-wallet)
+
+## 其他
+
+1. [ts-常用类型定义](./code/type.d.ts)
+1. [其他总结的脚本](https://github.com/zsytssk/common/tree/master)
+1. [clip_img](https://github.com/zsytssk/clip_img) rust 切图工具
+1. [combine_image](https://github.com/zsytssk/combine_image) rust 合图(类似 laya f12 发布打包图片)
+1. [cmd_flow](https://github.com/zsytssk/cmd_flow) vscode 插件在, terminal 一条一条执行命令
+1. [test_builder](https://github.com/zsytssk/test_builder) 自己写的浏览器中运行的测试小框架
+1. [script](https://github.com/zsytssk/script) 个人常用的 ts 脚本
+1. [sublime 插件](https://packagecontrol.io/packages/QuickOpen;)
+1. [atom 插件](https://atom.io/users/zsytssk)

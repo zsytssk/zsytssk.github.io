@@ -1,16 +1,18 @@
 - 6 月前完成就可以了 [2022-02-07 -- 2022-06-01]
-
-  - ts 类型定义 -> type.d
+  - 我和 rust 不得不说的故事
+    - 写的压缩图片合并图片
   - lightCanvas
-  - typescript 解析语法
-  - laya genVersion ｜ zipFile
-  - rust 写的压缩图片合并图片
-  - ls
-  - git 脚本
+  - script 脚本功能说明
   - react-tpl ...
-  - 小 zepto ｜ jquery 插件
-  - photoshop 脚本
+  - 我和 vscode 不得不说的故事
+  - 我和 chrome 不得不说的故事
+  - 时间久远的经验
+    - 小 zepto [https://github.com/zsytssk/common/blob/4838725a94aae5bfcc101e1ffd11b76f0fcd5e3d/www/js/zu.js]｜ jquery 插件
+    - photoshop 脚本
+    - atom 插件
   - 其他
+  - ***
+  - typescript 解析语法
 
 ### end
 
