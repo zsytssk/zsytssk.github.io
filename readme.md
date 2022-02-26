@@ -19,6 +19,8 @@
 
 ## 有关 react 其他
 
+[admin-tpl](https://github.com/zsytssk/admin-tpl.git)
+
 [个人对 react 的理解](https://www.zhihu.com/question/47161776/answer/2325381843)
 
 [给 redux 的 useSelector 添加 debounce](https://stackoverflow.com/questions/64799941/how-add-debounce-to-useselector-on-react-redux)
