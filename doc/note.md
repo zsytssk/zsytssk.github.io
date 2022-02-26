@@ -17,12 +17,15 @@
   - typescript 解析语法
 
 - @todo
+
   - react-tpl 全新项目配置
   - admin-tpl
     - 配置路由
     - 侧边栏
     - 头部
     - 权限配置
+
+- @todo vite-react-tpl
 
 ### end
 
