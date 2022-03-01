@@ -17,7 +17,7 @@
 
 [介绍](https://www.jianshu.com/p/e6e1f6a89be3)
 
-## 有关 react 其他
+## 其他有关 react 其他
 
 [admin-tpl](https://github.com/zsytssk/admin-tpl.git)
 
@@ -48,7 +48,9 @@
 
 ## lightCanvas
 
-自己写的 10k 左右的 canvas 渲染引擎类似于 layabox
+自己写的 10k 左右的 canvas 渲染引擎类似于 layabox, [示例代码][lightcanvas]
+
+[lightcanvas]: https://github.com/zsytssk/canvas_test/tree/master/lightCanvas
 
 ## solid-laya
 
