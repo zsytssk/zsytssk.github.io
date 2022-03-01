@@ -29,6 +29,22 @@
 
 layabox 写的捕鱼游戏 [介绍](./fish/readme.md)，这无疑是我程序员征途上最大的成就。
 
+## cocos 相关
+
+[cocos-tpl](https://github.com/zsytssk/cocos-tpl.git)
+
+- 功能：
+  1. [资源管理器][utils]
+  1. [音频管理器][utils]
+  1. [弹框管理器][utils]
+  1. [缓存管理器][utils]
+  1. [prefab 管理器][utils]
+  1. [websocket][utils]
+  1. [i18n][i18n]
+
+[utils]: https://github.com/zsytssk/cocos-tpl/tree/master/assets/main/scripts/utils
+[i18n]: https://github.com/zsytssk/cocos-tpl/tree/master/assets/resources/i18n
+
 ## lightCanvas
 
 自己写的 10k 左右的 canvas 渲染引擎类似于 layabox

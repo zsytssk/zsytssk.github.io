@@ -13,16 +13,39 @@ model 和 view 都实现了独立运行，不依赖其他部分。
 其中的经历外人难以知道，我特别要感谢 typescript 当时公司没有人使用 ts（2017）；
 因为我经常的尝试新的想法需要不断的重构代码，如果没有 ts 给我保证，我可能在第一版的时候就不敢动大动作了。
 
+```flow
+ st=>start: Start
+ i=>inputoutput: 输入年份n
+ cond1=>condition: n能否被4整除？
+ cond2=>condition: n能否被100整除？
+ cond3=>condition: n能否被400整除？
+ o1=>inputoutput: 输出非闰年
+ o2=>inputoutput: 输出非闰年
+ o3=>inputoutput: 输出闰年
+ o4=>inputoutput: 输出闰年
+ e=>end
+ st->i->cond1
+ cond1(no)->o1->e
+ cond1(yes)->cond2
+ cond2(no)->o3->e
+ cond2(yes)->cond3
+ cond3(yes)->o2->e
+ cond3(no)->o4->e
+```
+
 ## honor 框架
 
-honor 框架主要管理弹框和场景，还有其他一些小功能；这是原来公司的框架后来维护的那个人离职了，就交给我了。我对其进行了多次优化，目标就是将其变得简单可维护。比方说弹框管理器，最终我将其优化成了一个方法，仍保有以下功能：[代码](https://github.com/zsytssk/tpl/blob/master/laya/library/honor/ui/dialogManager.ts)
+honor 框架主要管理弹框和场景，还有其他一些小功能；这是原来公司的框架后来维护的那个人离职了，就交给我了。我对其进行了多次优化，目标就是将其变得简单可维护。比方说弹框管理器，最终我将其优化成了一个方法，仍保有以下功能：[代码])
 
-1. 可控制只显示一个实例还是每次都创建一个。
-2. 显示加载进度
-3. 如果在打开过程中切换了场景就不再显示
-4. 点击背景关闭
-5. 完成之后返回一个实例
-6. 在打开之前调用方法
+- 功能: [code][dialogmanager]
+  1. 可控制只显示一个实例还是每次都创建一个。
+  2. 显示加载进度
+  3. 如果在打开过程中切换了场景就不再显示
+  4. 点击背景关闭
+  5. 完成之后返回一个实例
+  6. 在打开之前调用方法
+
+[dialogmanager]: https://github.com/zsytssk/tpl/blob/master/laya/library/honor/ui/dialogManager.ts
 
 ## 测试代码分离
 
