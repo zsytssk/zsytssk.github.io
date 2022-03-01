@@ -3,7 +3,6 @@
   - lightCanvas
   - 我和 rust 不得不说的故事
     - 写的压缩图片合并图片
-  - lightCanvas
   - script 脚本功能说明
   - react-tpl ...
   - 我和 vscode 不得不说的故事
