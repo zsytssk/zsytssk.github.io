@@ -1,6 +1,6 @@
-捕鱼我从 2017 开始做，经过很多次优化，以下就是其中重要的地方；
+[示例代码](https://github.com/zsytssk/tpl/tree/master/laya)
 
-https://github.com/zsytssk/tpl/tree/master/laya
+捕鱼我从 2017 开始做，经过很多次优化，以下就是其中重要的地方；
 
 ## mvc
 
@@ -12,26 +12,6 @@ model 和 view 都实现了独立运行，不依赖其他部分。
 经过不知到多少次的尝试，不断的修改框架，最后才实现这样的一个方式；
 其中的经历外人难以知道，我特别要感谢 typescript 当时公司没有人使用 ts（2017）；
 因为我经常的尝试新的想法需要不断的重构代码，如果没有 ts 给我保证，我可能在第一版的时候就不敢动大动作了。
-
-```flow
- st=>start: Start
- i=>inputoutput: 输入年份n
- cond1=>condition: n能否被4整除？
- cond2=>condition: n能否被100整除？
- cond3=>condition: n能否被400整除？
- o1=>inputoutput: 输出非闰年
- o2=>inputoutput: 输出非闰年
- o3=>inputoutput: 输出闰年
- o4=>inputoutput: 输出闰年
- e=>end
- st->i->cond1
- cond1(no)->o1->e
- cond1(yes)->cond2
- cond2(no)->o3->e
- cond2(yes)->cond3
- cond3(yes)->o2->e
- cond3(no)->o4->e
-```
 
 ## honor 框架
 
@@ -82,7 +62,7 @@ js 继承曾经是一个高级用法，有很多的库专门干这个事情， �
 ## 其他
 
 1. 通过 rxjs 将多个加载任务合并成一个[代码][progress_code] [demo][progress_demo]
-1. node 脚本生成版本号[代码](https://github.com/zsytssk/tpl/blob/master/laya/script/genVersion/genVersion.ts)
+1. node 脚本生成版本号[代码][genversion]
 1. 将资源打包成 zip 记载 [打包代码][node_zip] [laya 注入功能][zipresmanager]
 1. 常用动画脚本 [代码][animate]
 1. 异步任务 [代码][asyncque]
@@ -90,6 +70,7 @@ js 继承曾经是一个高级用法，有很多的库专门干这个事情， �
 1. laya 显示的图片切换功能[代码][layaslider]
 1. 分页[代码][pagination]
 
+[genversion]: https://github.com/zsytssk/tpl/blob/master/laya/script/genVersion/genVersion.ts
 [progress_code]: https://github.com/zsytssk/tpl/blob/master/laya/library/honor/utils/loadRes.ts#L134
 [progress_demo]: https://codesandbox.io/s/rxjs-progressbar-52dji
 [node_zip]: https://github.com/zsytssk/tpl/tree/master/laya/script/zipFile
