@@ -48,9 +48,19 @@
 
 ## lightCanvas
 
-自己写的 10k 左右的 canvas 渲染引擎类似于 layabox, [示例代码][https://zsytssk.github.io/lightcanvas]
+自己写的 10k 左右的 canvas 渲染引擎类似于 layabox, [示例代码][lightcanvasdemo]，[源代码][lightcanvassource]
 
-[lightcanvas]: https://github.com/zsytssk/canvas_test/tree/master/lightCanvas
+- 功能：
+  1. 显示图片
+  1. 控制 alpha
+  1. 控制 pivot
+  1. 控制 scale
+  1. 显示文字
+  1. 图片 sizeGrid
+  1. 弹框
+
+[lightcanvasdemo]: https://zsytssk.github.io/lightcanvas
+[lightcanvassource]: https://github.com/zsytssk/canvas_test/tree/master/lightCanvas
 
 ## solid-laya
 
