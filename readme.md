@@ -48,7 +48,7 @@
 
 ## lightCanvas
 
-自己写的 10k 左右的 canvas 渲染引擎类似于 layabox, [示例代码][lightcanvas]
+自己写的 10k 左右的 canvas 渲染引擎类似于 layabox, [示例代码][https://zsytssk.github.io/lightcanvas]
 
 [lightcanvas]: https://github.com/zsytssk/canvas_test/tree/master/lightCanvas
 

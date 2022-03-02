@@ -1,6 +1,8 @@
 - 6 月前完成就可以了 [2022-02-07 -- 2022-06-01]
 
   - lightCanvas
+    - testDialog
+    - testClickEvent
   - 我和 rust 不得不说的故事
     - 写的压缩图片合并图片
   - script 脚本功能说明
