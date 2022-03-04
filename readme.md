@@ -4,7 +4,7 @@
 
 一个自己写的 react 组件库：
 
-[示例代码](https://zsytssk.github.io/bitUI)
+[示例](https://zsytssk.github.io/bitUI)
 
 [仓库](https://github.com/zsytssk/bitUI)
 
@@ -19,11 +19,12 @@
 
 ## 其他有关 react 其他
 
-[admin-tpl](https://github.com/zsytssk/admin-tpl.git)
+后台管理模版[admin-tpl](https://github.com/zsytssk/admin-tpl.git)
+react 模版[react-pro-tpl](https://github.com/zsytssk/react-pro-tpl.git)
 
-[个人对 react 的理解](https://www.zhihu.com/question/47161776/answer/2325381843)
+我对 react 的理解 [网址](https://www.zhihu.com/question/47161776/answer/2325381843)
 
-[给 redux 的 useSelector 添加 debounce](https://stackoverflow.com/questions/64799941/how-add-debounce-to-useselector-on-react-redux)
+给 redux 的 useSelector 添加 debounce [网址](https://stackoverflow.com/questions/64799941/how-add-debounce-to-useselector-on-react-redux)
 
 ## 捕鱼
 
@@ -77,6 +78,21 @@
 
 ![test](./images/solid-laya1.png)
 
+## rust 相关
+
+曾经一段时间我迷上了 rust，下面是我用 rust 做过的项目:
+
+1. 切割大图生成缩略图 [clip-img][clip-img]
+1. 合并图片生成图集 [combine-image][combine-image]
+1. 其他 rust 项目 [网址][rust-relative]
+
+一直想用 rust 自己写一门语言，因为缺少相关知识而未能成行；
+现在 rust 越来越流行，也许未来 rust 会成为整个软件世界的基础；
+
+[clip-img]: https://github.com/zsytssk/clip_img
+[combine-image]: https://github.com/zsytssk/combine_image
+[rust-relative]: https://github.com/zsytssk?tab=repositories&q=&type=&language=rust&sort=
+
 ## font-creator
 
 flutter 写的一个合并字体文件的插件：
@@ -105,19 +121,19 @@ flutter 写的一个合并字体文件的插件：
 
 工作这么多年我总结了一套比较有效率的工作方法，简单的介绍下：
 在新建一个项目时，我会新建一个 doc 文件夹，再在其中新建一个 note.md;
-所有的记录我会按照日期分割 `## 2022-03-02 10:07:59`, 在工作中所有的想法和问题和需要完成的任务都会记录下来；
+所有的记录我会按照日期分割(`## 2022-03-02 10:07:59`), 在工作中所有的想法和问题和需要完成的任务都会记录下来；
 通过 `@note` `@todo` `@ques` 分类，如果有完成的我就会将其移入今天的 `### end`分类下；
 如果今天没有做到的比较重要的我会在明天移入当天的工作内容，其他的移入今天的 `### save` 分类下；
 这个工作方法使我不需要花费额外精力的去记忆去总结，一切都一目了然，让我能几乎能抓住每一个想法思考；
 再搭配番茄工作法，使我一天做了很多的事情，而不会因此疲惫，而且还有精力做些其他的事情，一切如此的顺畅且自然而然；
 我想这是我工作这么多年的最大的财富。
 
+这是我做这个项目的[记录](./doc/note.md)
+
 ## 其他
 
 1. [ts-常用类型定义](./code/type.d.ts)
 1. [其他总结的脚本](https://github.com/zsytssk/common/tree/master)
-1. [clip_img](https://github.com/zsytssk/clip_img) rust 切图工具
-1. [combine_image](https://github.com/zsytssk/combine_image) rust 合图(类似 laya f12 发布打包图片)
 1. [cmd_flow](https://github.com/zsytssk/cmd_flow) vscode 插件在, terminal 一条一条执行命令
 1. [test_builder](https://github.com/zsytssk/test_builder) 自己写的浏览器中运行的测试小框架
 1. [script](https://github.com/zsytssk/script) 个人常用的 ts 脚本
