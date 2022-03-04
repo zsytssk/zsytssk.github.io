@@ -1,7 +1,6 @@
 - 6 月前完成就可以了 [2022-02-07 -- 2022-06-01]
 
-  - react-pro-tpl ...
-  - react-clean-tpl ...
+  - vite-react-tpl
   - script 脚本功能说明
   - 我和 vscode 不得不说的故事
   - 我和 chrome 不得不说的故事
@@ -14,6 +13,13 @@
   - ***
   - typescript 解析语法
 
+- 面试
+  - 常规的题目
+  - 罗辑题
+  - 完善简历
+
+### end
+
 - @todo
 
   - react-tpl 全新项目配置
@@ -23,9 +29,7 @@
     - 头部
     - 权限配置
 
-- @todo vite-react-tpl
-
-### end
+- react-pro-tpl ...
 
 - lightCanvas
 
