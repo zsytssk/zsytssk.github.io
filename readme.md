@@ -13,8 +13,9 @@
 自己写的 react 状态管理器, 采用事件分发来管理状态；
 有类似 redux 的 useSelector 的方法
 
-[event-state](https://www.npmjs.com/package/react-event-state)
+[react-event-state](https://www.npmjs.com/package/react-event-state)
 
+[demo](https://zsytssk.github.io/event-state)
 [介绍](https://www.jianshu.com/p/e6e1f6a89be3)
 
 ## 其他有关 react 其他
