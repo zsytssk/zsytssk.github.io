@@ -24,6 +24,8 @@
 
 react 模版[react-pro-tpl](https://github.com/zsytssk/react-pro-tpl.git)
 
+最新 react 模版[react-clean-tpl](https://github.com/zsytssk/react-clean-tpl.git)
+
 我对 react 的理解 [网址](https://www.zhihu.com/question/47161776/answer/2325381843)
 
 给 redux 的 useSelector 添加 debounce [网址](https://stackoverflow.com/questions/64799941/how-add-debounce-to-useselector-on-react-redux)
@@ -138,7 +140,7 @@ flutter 写的一个合并字体文件的插件：
 1. [其他总结的脚本](https://github.com/zsytssk/common/tree/master)
 1. [cmd_flow](https://github.com/zsytssk/cmd_flow) vscode 插件在, terminal 一条一条执行命令
 1. [test_builder](https://github.com/zsytssk/test_builder) 自己写的浏览器中运行的测试小框架
-1. [script](https://github.com/zsytssk/script) 个人常用的 ts 脚本
+1. [script](https://github.com/zsytssk/script) 个人常用的 ts 脚本，包含本地文件操作+文本替换等功能
 1. [sublime 插件](https://packagecontrol.io/packages/QuickOpen;)
 1. [atom 插件](https://atom.io/users/zsytssk)
 1. [vscode 插件](https://marketplace.visualstudio.com/publishers/zsytssk)

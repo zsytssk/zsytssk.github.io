@@ -2,27 +2,26 @@
 
 ## 2022-03-07 13:22:01
 
-- @todo react-event-state readme 新用法介绍
-
-## 2022-03-07 13:17:46
+### end
 
 - 6 月前完成就可以了 [2022-02-07 -- 2022-06-01]
 
-  - vite-react-tpl
-  - script 脚本功能说明
-  - 我和 vscode 不得不说的故事
-  - 我和 chrome 不得不说的故事
-  - 历史堆里的经验
-    - 小 zepto [https://github.com/zsytssk/common/blob/4838725a94aae5bfcc101e1ffd11b76f0fcd5e3d/www/js/zu.js]
-    - jquery 插件 https://github.com/zsytssk/common/blob/4838725a94aae5bfcc101e1ffd11b76f0fcd5e3d/www/js/jquery.zsyAddCur.js
-    - photoshop 脚本
-    - atom 插件
-  - 其他
   - ***
   - typescript 解析语法
 
-### end
+- @todo react-event-state readme 新用法介绍
 
+- script 脚本功能说明
+- 我和 vscode 不得不说的故事
+- 我和 chrome 不得不说的故事
+- 其他
+
+- 历史堆里的经验
+  - 小 zepto [https://github.com/zsytssk/common/blob/4838725a94aae5bfcc101e1ffd11b76f0fcd5e3d/www/js/zu.js]
+  - jquery 插件 https://github.com/zsytssk/common/blob/4838725a94aae5bfcc101e1ffd11b76f0fcd5e3d/www/js/jquery.zsyAddCur.js
+  - photoshop 脚本
+  - atom 插件
+- vite-react-tpl
 - @todo
 
   - react-tpl 全新项目配置
