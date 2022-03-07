@@ -140,3 +140,7 @@ flutter 写的一个合并字体文件的插件：
 1. [script](https://github.com/zsytssk/script) 个人常用的 ts 脚本
 1. [sublime 插件](https://packagecontrol.io/packages/QuickOpen;)
 1. [atom 插件](https://atom.io/users/zsytssk)
+1. [vscode 插件](https://marketplace.visualstudio.com/publishers/zsytssk)
+1. [自己造的 zepto 轮子](https://github.com/zsytssk/common/blob/4838725a94aae5bfcc101e1ffd11b76f0fcd5e3d/www/js/zu.js)
+1. [jquery 插件](https://github.com/zsytssk/common/tree/4838725a94aae5bfcc101e1ffd11b76f0fcd5e3d/www/js)
+1. [photoshop 脚本](https://github.com/zsytssk/common/tree/4838725a94aae5bfcc101e1ffd11b76f0fcd5e3d/photoshop%20javascript)
