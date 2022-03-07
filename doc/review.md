@@ -34,8 +34,6 @@ https://segmentfault.com/a/1190000039165592
 
 - 导致浏览器重绘因素
 
--
-
 - http 请求 header 等部分是干什么的？
 
 - tcp udp 的区别
