@@ -5,8 +5,6 @@ function main() {
   for (const item of arr) {
     tree = insert(item, tree);
   }
-
-  console.log(`test:>`, JSON.stringify(tree));
 }
 
 main();
