@@ -1,5 +1,15 @@
 - [面试](./reviewNote.md)
 
+## 2022-03-08 17:01:49
+
+- @ques 二叉树 js 怎么写
+
+- @ques random7 -> random10
+
+  - random7 -> random5
+
+- @ques findLadders -> 这有点像寻路的感觉
+
 ## 2022-03-07 13:22:01
 
 - 这些题目可以在线做一个所见即所得的网页
@@ -23,6 +33,8 @@
 - let code
 
 - 字节跳动 题目
+
+https://lucifer.ren/fe-interview/#/
 
 ## end
 
