@@ -2,16 +2,23 @@
 
 ## 2022-03-08 17:01:49
 
-- @ques 二叉树 js 怎么写
+- @ques Symbol 的用途
+- @ques proxy 的用途
 
-- @ques random7 -> random10
-
-  - random7 -> random5
+### save
 
 - @ques findLadders -> 这有点像寻路的感觉
 
 - @ques 存不存在 一种 固定结构的二叉树， 一串数字不管什么顺序 都是一样的结果
   - 懒惰型二叉树 -> 保持最小的层级
+
+### end
+
+- @ques 二叉树 js 怎么写
+
+- @ques random7 -> random10
+
+  - random7 -> random5
 
 ## 2022-03-07 13:22:01
 
