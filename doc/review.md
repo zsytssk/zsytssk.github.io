@@ -63,6 +63,11 @@ https://leetcode-cn.com/problems/word-transformer-lcci/comments/
 
 - 字节跳动 题目
 
+## Proxy Symbol
+
+Proxy: https://codesandbox.io/s/es6-proxy-forked-x59wft
+Symbol: https://codesandbox.io/s/vnozc?file=/src/index.js
+
 ## end
 
 promise 的执行顺序
