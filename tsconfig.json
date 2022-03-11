@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "isolatedModules": false,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitThis": false,
+    "experimentalDecorators": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "noEmitHelpers": false,
+    "noEmit": true,
+    "sourceMap": true,
+    "watch": true,
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "allowSyntheticDefaultImports": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "jsx": "react-jsx",
+    "baseUrl": ".",
+    "paths": {
+      "@libs/*": ["./packages/libraries/*"],
+      "@ui/*": ["./packages/ui/src/*"],
+      "@bitgame/*": ["./packages/bitgame/src/*"]
+    }
+  },
+  "include": [
+    "./packages/libraries/*.d.ts",
+    "./cli/types/*.d.ts",
+    "./packages/**/src",
+    "./packages/**/test"
+  ],
+  "exclude": ["**/node_modules/**", "./build/", "**/dist/**"]
+}

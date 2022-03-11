@@ -1,10 +1,27 @@
 - [css 垂直居中样式](https://codesandbox.io/s/review-align-center-cb9wyc)
 
+### 问题
+
+- @ques 原生的 http 请求怎么写
+- @ques 浏览器 cache -> 这是什么东西？
+  - https://segmentfault.com/a/1190000020086923
+  - https://juejin.cn/post/6947936223126093861
+
 ## TCP 协议三次握手
 
 https://segmentfault.com/a/1190000039165592
 
 ## 前端的性能优化
+
+https://juejin.cn/post/6911472693405548557
+
+- webpack-bundle-analyzer ->
+
+- https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bda756efa4f546e3b2fd6744e2e3336c~tplv-k3u1fbpfcp-zoom-in-crop-mark:1304:0:0:0.awebp
+
+- 压缩文件
+
+- 缓存 http 请求
 
 - 合并文件减少请求数量
 
@@ -21,6 +38,8 @@ https://segmentfault.com/a/1190000039165592
 - 服务端渲染 减少首屏时间 优化性能
 
 - 延迟加载图片
+
+- 分包
 
 - 使用 https：更快+同时 对一个客户端请求发送多个响应
 
