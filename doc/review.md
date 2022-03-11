@@ -9,6 +9,7 @@
   - https://juejin.cn/post/6947936223126093861
 
 - 前端优化的方式，强缓存和协商缓存的区别，
+  - https://segmentfault.com/a/1190000008956069
 
 ## TCP 协议三次握手
 
