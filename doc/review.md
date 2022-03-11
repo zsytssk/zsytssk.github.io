@@ -4,8 +4,11 @@
 
 - @ques 原生的 http 请求怎么写
 - @ques 浏览器 cache -> 这是什么东西？
+
   - https://segmentfault.com/a/1190000020086923
   - https://juejin.cn/post/6947936223126093861
+
+- 前端优化的方式，强缓存和协商缓存的区别，
 
 ## TCP 协议三次握手
 
