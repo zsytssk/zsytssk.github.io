@@ -9,7 +9,7 @@
     "noFallthroughCasesInSwitch": true,
     "noImplicitThis": false,
     "experimentalDecorators": true,
-    "module": "esnext",
+    "module": "commonjs",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "skipDefaultLibCheck": true,
@@ -22,19 +22,6 @@
     "downlevelIteration": true,
     "allowSyntheticDefaultImports": true,
     "suppressImplicitAnyIndexErrors": true,
-    "jsx": "react-jsx",
-    "baseUrl": ".",
-    "paths": {
-      "@libs/*": ["./packages/libraries/*"],
-      "@ui/*": ["./packages/ui/src/*"],
-      "@bitgame/*": ["./packages/bitgame/src/*"]
-    }
-  },
-  "include": [
-    "./packages/libraries/*.d.ts",
-    "./cli/types/*.d.ts",
-    "./packages/**/src",
-    "./packages/**/test"
-  ],
-  "exclude": ["**/node_modules/**", "./build/", "**/dist/**"]
+    "baseUrl": "."
+  }
 }
