@@ -6,7 +6,6 @@
 
 - @ques 不要主动的暴露自己的缺点
 
-- @ques 原生的 http 请求怎么写
 - @ques 浏览器 cache -> 这是什么东西？
 
   - https://segmentfault.com/a/1190000020086923
@@ -14,6 +13,10 @@
 
 - 前端优化的方式，强缓存和协商缓存的区别，
   - https://segmentfault.com/a/1190000008956069
+
+## http code 码
+
+http://tools.jb51.net/table/http_status_code
 
 ## TCP 协议三次握手
 
