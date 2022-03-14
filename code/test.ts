@@ -1,3 +1,4 @@
+// 二叉树两种状态的转化
 function isSymmetric(root: (number | null)[]): boolean {
   for (let i = 0; i < root.length; i++) {
     const matchIndex = findMatchIndex(i + 1) - 1;
