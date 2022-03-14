@@ -6,13 +6,9 @@
 
 - @ques 不要主动的暴露自己的缺点
 
-- @ques 浏览器 cache -> 这是什么东西？
+## 强制缓存和协商缓存
 
-  - https://segmentfault.com/a/1190000020086923
-  - https://juejin.cn/post/6947936223126093861
-
-- 前端优化的方式，强缓存和协商缓存的区别，
-  - https://segmentfault.com/a/1190000008956069
+- https://segmentfault.com/a/1190000008956069
 
 ## http code 码
 
