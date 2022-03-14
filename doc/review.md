@@ -6,6 +6,10 @@
 
 - @ques 不要主动的暴露自己的缺点
 
+## redux 异步
+
+redux-thunk
+
 ## 强制缓存和协商缓存
 
 - https://segmentfault.com/a/1190000008956069
