@@ -59,3 +59,142 @@ function calcNum(num: number, map = { num1: 0, num7: 0, num30: 0 } as NumMap) {
 }
 
 mincostTickets([1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 30, 31], [2, 7, 15]);
+
+function mincostTickets(days: number[], costs: number[]): number {
+  let result = 0;
+  let num = 0;
+
+  let start = 0;
+  let current = 0;
+  let bestMatch = 0;
+  for (let i = 0; i < days.length; i++) {
+    num++;
+    current = days[i];
+    const space = current - start + 1;
+
+    if (i === 0) {
+      start = days[0];
+      bestMatch = costs[0];
+      continue;
+    }
+
+    if (space >= 30) {
+      result += bestMatch;
+      num = 1;
+      start = current;
+      bestMatch = costs[0];
+    } else if (space >= 7) {
+      result += bestMatch;
+      num = 1;
+      start = current;
+      bestMatch = costs[0];
+    } else if (space < 7 && num > 3) {
+      bestMatch = costs[1];
+    } else if (space < 30 && num > 14) {
+      bestMatch = costs[2];
+    } else {
+      bestMatch += costs[0];
+    }
+
+    if (i === days.length - 1) {
+      // console.log(`test:>3`, current, bestMatch);
+      result += bestMatch;
+    }
+
+    console.log(`test:>`, current, space, bestMatch, result);
+  }
+
+  return result;
+}
+
+const result = mincostTickets(
+  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 30, 31],
+  [2, 7, 15]
+);
+console.log(result);
+
+// 方法2
+// function mincostTickets(days: number[], costs: number[]): number {
+//   let result = 0;
+//   let num = 0;
+
+//   let start = 0;
+//   let current = 0;
+//   let bestMatch = 0;
+//   for (let i = 0; i < days.length; i++) {
+//     num++;
+//     current = days[i];
+//     const space = current - start + 1;
+
+//     if (i === 0) {
+//       start = days[0];
+//       bestMatch = costs[0];
+//       continue;
+//     }
+
+//     if (space >= 30) {
+//       result += bestMatch;
+//       num = 1;
+//       start = current;
+//       bestMatch = costs[0];
+//     } else if (space >= 7) {
+//       result += bestMatch;
+//       num = 1;
+//       start = current;
+//       bestMatch = costs[0];
+//     } else if (space < 7 && num > 3) {
+//       bestMatch = costs[1];
+//     } else if (space < 30 && num > 14) {
+//       bestMatch = costs[2];
+//     } else {
+//       bestMatch += costs[0];
+//     }
+
+//     if (i === days.length - 1) {
+//       // console.log(`test:>3`, current, bestMatch);
+//       result += bestMatch;
+//     }
+
+//     console.log(`test:>`, current, space, bestMatch, result);
+//   }
+
+//   return result;
+// }
+
+// const result = mincostTickets(
+//   [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 30, 31],
+//   [2, 7, 15]
+// );
+// console.log(result);
+
+// 方法3
+// function mincostTickets(days: number[], costs: number[]): number {
+//   let result = 0;
+//   let num = 0;
+
+//   let start = 0;
+//   let current = 0;
+//   let bestMatch: [number, number, number] = [0, 0, 0];
+//   for (let i = 0; i < days.length; i++) {
+//     num++;
+//     current = days[i];
+//     const space = current - start + 1;
+
+//     if (space < 7) {
+//       bestMatch[0] += 1;
+//     } else if (space < 30) {
+//       if (bestMatch[0] * costs[0] > costs[1]) {
+//         bestMatch[0] = 0;
+//         bestMatch[1] += 1;
+//       }
+//     } else {
+//     }
+
+//     console.log(`test:>`, current, space, bestMatch, result);
+//   }
+
+//   return result;
+// }
+
+// const result = mincostTickets([6, 8, 9, 18, 20, 21, 23, 25], [2, 7, 15]);
+// console.log(result);
