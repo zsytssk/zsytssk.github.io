@@ -1,5 +1,3 @@
-const rangeArr = [1, 7, 30];
-
 function mincostTickets(days: number[], costs: number[]): number {
   let result = 0;
   let num = 0;
@@ -28,17 +26,12 @@ function mincostTickets(days: number[], costs: number[]): number {
       num = 1;
       start = current;
       bestMatch = costs[0];
-    }
-
-    if (space < 7 && num > 3) {
+    } else if (space < 7 && num > 3) {
       bestMatch = costs[1];
-      // console.log(`test:>1.1`, current, num, bestMatch);
     } else if (space < 30 && num > 14) {
       bestMatch = costs[2];
-      // console.log(`test:>1.2`, current, num, bestMatch);
     } else {
       bestMatch += costs[0];
-      // console.log(`test:>1.3`, current, num, bestMatch);
     }
 
     if (i === days.length - 1) {
