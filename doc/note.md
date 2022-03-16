@@ -4,7 +4,7 @@
 
 - @todo 无限循环的问题
 
-- @todo
+- @todo 如恶化优化性能
 
 zustand 挺简单的
 
