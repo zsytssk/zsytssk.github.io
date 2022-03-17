@@ -1,4 +1,5 @@
 ```ts
+//  性能问题
 let completeMap: Map<number, number> = new Map();
 export function networkDelayTime(times: number[][], n: number, k: number) {
   completeMap.clear();
@@ -33,6 +34,7 @@ function findMatch(times: number[][], k: number, step = 0) {
 ```
 
 ```ts
+//  遍历不全
 type FindItemArr = [number, number];
 let completeMap: Map<number, number> = new Map();
 export function networkDelayTime(times: number[][], n: number, k: number) {
