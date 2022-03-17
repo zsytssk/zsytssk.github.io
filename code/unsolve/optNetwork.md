@@ -1,7 +1,7 @@
 ```ts
 //  性能问题
 let completeMap: Map<number, number> = new Map();
-export function networkDelayTime(times: number[][], n: number, k: number) {
+function networkDelayTime(times: number[][], n: number, k: number) {
   completeMap.clear();
 
   times = times.sort((a, b) => a[2] - b[2]);
@@ -37,7 +37,7 @@ function findMatch(times: number[][], k: number, step = 0) {
 // 方法1-path
 type PathItem = [number, number];
 let completeMap: Map<number, PathItem[]> = new Map();
-export function networkDelayTime(times: number[][], n: number, k: number) {
+function networkDelayTime(times: number[][], n: number, k: number) {
   completeMap.clear();
 
   times = times.sort((a, b) => a[2] - b[2]);
@@ -90,7 +90,7 @@ function comparePath(path1: PathItem[], path2: PathItem[]) {
 // 方法2 - 遍历不全
 type FindItemArr = [number, number];
 let completeMap: Map<number, number> = new Map();
-export function networkDelayTime(times: number[][], n: number, k: number) {
+function networkDelayTime(times: number[][], n: number, k: number) {
   completeMap.clear();
 
   times = times.sort((a, b) => a[2] - b[2]);
@@ -137,7 +137,7 @@ function findMatch(times: number[][], findList: FindItemArr[]) {
 // 方法2-path
 type PathItem = [number, number];
 let completeMap: Map<number, PathItem[]> = new Map();
-export function networkDelayTime(times: number[][], n: number, k: number) {
+function networkDelayTime(times: number[][], n: number, k: number) {
   completeMap.clear();
 
   times = times.sort((a, b) => a[2] - b[2]);
@@ -193,5 +193,63 @@ function comparePath(path1: PathItem[], path2: PathItem[]) {
   if (sum1 < sum2) {
     return -1;
   }
+}
+```
+
+```ts
+// 方法3-性能问题
+let completeMap: Map<number, number> = new Map();
+export function networkDelayTime(times: number[][], n: number, k: number) {
+  times = times.sort((a, b) => a[2] - b[2]);
+
+  const temp = [];
+  for (let i = 1; i <= n; i++) {
+    if (i == k) {
+      continue;
+    }
+    const step = findMatch(times, k, i);
+    if (step === -1) {
+      return -1;
+    }
+    temp.push(step);
+  }
+
+  return Math.max(...temp);
+}
+
+function findMatch(
+  times: number[][],
+  origin: number,
+  target: number,
+  step = 0
+) {
+  const sourceArr = times.filter((item) => item[0] === origin);
+  const restArr = times.filter(
+    (item) => item[0] !== origin && item[1] !== origin
+  );
+
+  const temp: number[] = [];
+  for (const item of sourceArr) {
+    const [ui, vi, time] = item;
+    const curStep = time + step;
+    if (
+      completeMap.has(target) &&
+      (completeMap.get(target) as number) <= curStep
+    ) {
+      break;
+    }
+
+    if (target === vi) {
+      completeMap.set(vi, curStep);
+      return curStep;
+    }
+    const itemResult = findMatch(restArr, vi, target, curStep);
+    if (itemResult === -1) {
+      continue;
+    }
+    temp.push(itemResult);
+  }
+
+  return temp.length ? Math.min(...temp) : -1;
 }
 ```
