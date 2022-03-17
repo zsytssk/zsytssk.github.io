@@ -32,8 +32,10 @@ function findMatch(times: number[][], findList: FindItemArr[]) {
     }
   }
 
-  const rest = times;
-  if (nextFindArr.length) {
+  const rest = times.filter(
+    (item) => findList.findIndex((findItem) => findItem[0] === item[0]) === -1
+  );
+  if (rest.length && nextFindArr.length) {
     findMatch(rest, nextFindArr);
   }
 }
