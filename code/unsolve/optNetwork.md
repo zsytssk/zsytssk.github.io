@@ -87,7 +87,7 @@ function comparePath(path1: PathItem[], path2: PathItem[]) {
 ```
 
 ```ts
-// 方法2 - 遍历不全
+// 方法2 - 性能比方法1好但是亦然可以提升
 type FindItemArr = [number, number];
 let completeMap: Map<number, number> = new Map();
 function networkDelayTime(times: number[][], n: number, k: number) {
@@ -95,7 +95,7 @@ function networkDelayTime(times: number[][], n: number, k: number) {
 
   times = times.sort((a, b) => a[2] - b[2]);
   findMatch(times, [[k, 0]] as FindItemArr[]);
-  console.log(`test:>`, completeMap);
+  completeMap.delete(k);
   if (completeMap.size >= n - 1) {
     return Math.max(...completeMap.values());
   }
@@ -104,6 +104,7 @@ function networkDelayTime(times: number[][], n: number, k: number) {
 
 function findMatch(times: number[][], findList: FindItemArr[]) {
   const nextFindArr: FindItemArr[] = [];
+
   for (const findItem of findList) {
     const [target, step] = findItem;
     const StartArr = times.filter((item) => item[0] === target);
@@ -113,7 +114,7 @@ function findMatch(times: number[][], findList: FindItemArr[]) {
       let curStep = t + step;
       if (completeMap.has(vi)) {
         const saved = completeMap.get(vi) as number;
-        if (saved < curStep) {
+        if (saved <= curStep) {
           continue;
         }
       }
@@ -122,13 +123,8 @@ function findMatch(times: number[][], findList: FindItemArr[]) {
     }
   }
 
-  const rest = times.filter(
-    (item) =>
-      findList.findIndex((findItem) => findItem[0] === item[0]) === -1 &&
-      findList.findIndex((findItem) => findItem[0] === item[1]) === -1
-  );
-  if (rest.length && nextFindArr.length) {
-    findMatch(rest, nextFindArr);
+  if (nextFindArr.length) {
+    findMatch(times, nextFindArr);
   }
 }
 ```
