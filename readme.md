@@ -8,6 +8,14 @@
 
 [仓库](https://github.com/zsytssk/bitUI)
 
+## calendar
+
+一个自己写的 react 日历组件 （低仿飞书日历）
+
+[示例](https://zsytssk.github.io/calendar)
+
+[仓库](https://github.com/zsytssk/calendar)
+
 ## event-state 状态管理
 
 自己写的 react 状态管理器, 采用事件分发来管理状态；
@@ -82,12 +90,24 @@ react 模版[react-pro-tpl](https://github.com/zsytssk/react-pro-tpl.git)
 
 ![test](./images/solid-laya1.png)
 
+## solid-taro
+
+通过 SolidJs 渲染 taro 的项目
+
+demo 项目 [taro-solid-demo](https://github.com/zsytssk/taro-solid-demo)
+对 taro 项目的改造
+
+- 对 taro 的改造[taro](https://github.com/zsytssk/taro/tree/solid)
+- 项目开发的记录[taro-solid-doc](https://github.com/zsytssk/taro-solid-doc)
+
 ## rust 相关
 
 曾经一段时间我迷上了 rust，下面是我用 rust 做过的项目:
 
 1. 切割大图生成缩略图 [clip-img][clip-img]
 1. 合并图片生成图集 [combine-image][combine-image]
+1. 2022 年 advent_of_code [advent_of_code][advent_of_code]
+1. rust 内部发布镜像工具 [publish-cli][publish-cli]
 1. 其他 rust 项目 [网址][rust-relative]
 
 一直想用 rust 自己写一门语言，因为缺少相关知识而未能成行；
@@ -95,6 +115,8 @@ react 模版[react-pro-tpl](https://github.com/zsytssk/react-pro-tpl.git)
 
 [clip-img]: https://github.com/zsytssk/clip_img
 [combine-image]: https://github.com/zsytssk/combine_image
+[advent_of_code]: https://github.com/zsytssk/advent_of_code
+[publish-cli]: https://github.com/zsytssk/publish-cli
 [rust-relative]: https://github.com/zsytssk?tab=repositories&q=&type=&language=rust&sort=
 
 ## font-creator
